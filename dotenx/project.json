@@ -1,0 +1,139 @@
+{
+	"name": "testone",
+	"pipelines": [],
+	"database_tables": [
+		{
+			"name": "user_group",
+			"is_public": false,
+			"is_write_public": false,
+			"columns": [
+				{
+					"name": "name",
+					"type": ""
+				},
+				{
+					"name": "insert_list",
+					"type": ""
+				},
+				{
+					"name": "delete_list",
+					"type": ""
+				},
+				{
+					"name": "update_list",
+					"type": ""
+				},
+				{
+					"name": "select_list",
+					"type": ""
+				},
+				{
+					"name": "description",
+					"type": ""
+				},
+				{
+					"name": "is_default",
+					"type": ""
+				}
+			]
+		},
+		{
+			"name": "user_info",
+			"is_public": false,
+			"is_write_public": false,
+			"columns": [
+				{
+					"name": "account_id",
+					"type": ""
+				},
+				{
+					"name": "password",
+					"type": ""
+				},
+				{
+					"name": "fullname",
+					"type": ""
+				},
+				{
+					"name": "email",
+					"type": ""
+				},
+				{
+					"name": "created_at",
+					"type": ""
+				},
+				{
+					"name": "user_group",
+					"type": ""
+				}
+			]
+		},
+		{
+			"name": "security_code",
+			"is_public": false,
+			"is_write_public": false,
+			"columns": [
+				{
+					"name": "email",
+					"type": ""
+				},
+				{
+					"name": "security_code",
+					"type": ""
+				},
+				{
+					"name": "expiration_time",
+					"type": ""
+				},
+				{
+					"name": "usable",
+					"type": ""
+				},
+				{
+					"name": "use_case",
+					"type": ""
+				}
+			]
+		},
+		{
+			"name": "views",
+			"is_public": false,
+			"is_write_public": false,
+			"columns": [
+				{
+					"name": "name",
+					"type": ""
+				},
+				{
+					"name": "query",
+					"type": ""
+				},
+				{
+					"name": "query_as_json",
+					"type": ""
+				},
+				{
+					"name": "values",
+					"type": ""
+				},
+				{
+					"name": "is_public",
+					"type": ""
+				}
+			]
+		}
+	],
+	"ui_pages": [
+		{
+			"name": "index",
+			"content": {
+				"mode": "simple",
+				"layout": [],
+				"globals": [],
+				"classNames": {},
+				"pageParams": [],
+				"dataSources": []
+			}
+		}
+	]
+}
